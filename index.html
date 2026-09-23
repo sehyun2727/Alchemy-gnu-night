@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>GNU NIGHT in Gwangju · 2026.10.31 SAT · 하멜아트홀</title>
+<meta name="description" content="J-POP BAND COVER LIVE — Kawarimono · Ameu · Alchemy 연합공연. 2026년 10월 31일(토) 오후 6시, 광주 하멜아트홀. 온라인예매 5,000원 / 현장구매 7,000원.">
+<meta property="og:title" content="GNU NIGHT in Gwangju">
+<meta property="og:description" content="2026.10.31 SAT PM 06:00 · 하멜아트홀 · Kawarimono | Ameu | Alchemy">
+<meta property="og:image" content="img/hero-gnu.jpg">
+<meta name="theme-color" content="#070707">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rubik+Wet+Paint&family=Rock+Salt&family=IBM+Plex+Mono:wght@400;600&family=Noto+Sans+KR:wght@400;700;900&family=Noto+Sans+JP:wght@400;700;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- 고정 배경: 포스터의 페인트 스플래터 3겹 + 그레인 -->
+<div class="paint" aria-hidden="true">
+  <div class="paint__layer paint__layer--teal"></div>
+  <div class="paint__layer paint__layer--yellow"></div>
+  <div class="paint__layer paint__layer--red"></div>
+  <div class="paint__grain"></div>
+  <div class="paint__vignette"></div>
+</div>
+
+<!-- 떠다니는 왕관: 섹션 제목마다 옮겨 앉습니다 -->
+<div class="crown" id="crown" aria-hidden="true">
+  <svg viewBox="0 0 64 52" class="crown__svg"><path d="M9 43 L5 14 L19 26 L32 6 L45 26 L59 14 L55 43 Z"/><path d="M10 48 L54 48" class="crown__base"/></svg>
+</div>
+
+<nav class="nav">
+  <a class="nav__brand" href="#top"><span class="nav__slot" id="dock"></span>GNU NIGHT</a>
+  <span class="nav__track" id="navTrack">2026.10.31 SAT · PM 06:00</span>
+  <ul class="nav__links">
+    <li><a href="#night">NIGHT</a></li>
+    <li><a href="#order">ORDER</a></li>
+    <li><a href="#sets">SETLIST</a></li>
+    <li><a href="#ticket">TICKET</a></li>
+    <li><a href="#venue">VENUE</a></li>
+  </ul>
+</nav>
+
+<main>
+
+<!-- 00 HERO : 스크롤하면 글자가 페인트처럼 흘러내리고, 누(GNU)가 다가옵니다 -->
+<section class="hero" id="top">
+  <div class="hero__sticky">
+    <img class="hero__gnu" id="heroGnu" src="img/hero-gnu.jpg" alt="">
+    <p class="hero__kicker">J-POP BAND COVER LIVE</p>
+    <div class="hero__crown-slot" data-crown-target="hero" data-crown-scale="1.35"></div>
+    <h1 class="hero__title" aria-label="GNU NIGHT">
+      <span class="drip">G</span><span class="drip">N</span><span class="drip">U</span><span class="drip drip--space"></span><span class="drip">N</span><span class="drip">I</span><span class="drip">G</span><span class="drip">H</span><span class="drip">T</span>
+    </h1>
+    <p class="hero__sub" id="heroSub">in Gwangju</p>
+    <div class="hero__meta" id="heroMeta">
+      <p><b>OCTOBER 31</b> SAT / PM 06:00</p>
+      <p>광주광역시 남구 봉선1로 70 <b>하멜아트홀</b></p>
+      <p class="hero__bands">Kawarimono <i>|</i> Ameu <i>|</i> Alchemy</p>
+    </div>
+    <div class="hero__scroll">SCROLL — 글자가 흘러내립니다</div>
+  </div>
+</section>
+
+<!-- 01 THE NIGHT : 카운트다운 + 정보 카드(뒤집힌 채 들어와 바로 섭니다) -->
+<section class="night" id="night">
+  <h2 class="sec-title" data-crown-target="night" data-crown-pos="left">THE <span>NIGHT</span></h2>
+  <p class="lead">세 밴드, 네 무대, 스물두 곡.<br>밤은 6시에 시작하고, 끝날 때 끝납니다.</p>
+  <div class="count" id="count" aria-live="polite">
+    <div class="count__cell"><b data-cd="d">000</b><span>DAYS</span></div>
+    <div class="count__cell"><b data-cd="h">00</b><span>HOURS</span></div>
+    <div class="count__cell"><b data-cd="m">00</b><span>MIN</span></div>
+    <div class="count__cell"><b data-cd="s">00</b><span>SEC</span></div>
+  </div>
+  <div class="facts">
+    <article class="fact" style="--tilt:-1.5deg">
+      <span class="fact__k">WHEN</span>
+      <b>10.31 <small>SAT</small></b>
+      <p>2026년 10월 31일 토요일<br>PM 06:00 시작</p>
+    </article>
+    <article class="fact" style="--tilt:1.2deg">
+      <span class="fact__k">WHERE</span>
+      <b>하멜아트홀</b>
+      <p>광주광역시 남구 봉선1로 70</p>
+    </article>
+    <article class="fact" style="--tilt:-0.8deg">
+      <span class="fact__k">HOW MUCH</span>
+      <b>5,000 <small>ONLINE</small></b>
+      <p>온라인예매 5,000원 · 현장구매 7,000원<br>*현장구매는 계좌이체만 가능합니다.</p>
+    </article>
+  </div>
+</section>
+
+<!-- 02 RUNNING ORDER : 가로 스크롤. 왕관 쓴 누가 옆으로 걸어가며 무대 순서를 지나갑니다 -->
+<section class="order" id="order">
+  <div class="order__sticky">
+    <h2 class="sec-title" data-crown-target="order" data-crown-pos="left">RUNNING <span>ORDER</span></h2>
+    <p class="order__hint">스크롤 → 누가 옆으로 걸어갑니다. 무대는 왼쪽에서 오른쪽으로.</p>
+    <div class="order__track" id="orderTrack">
+      <article class="stop">
+        <span class="stop__num">01</span>
+        <img src="img/emblem-akg.jpg" alt="실험용 플라스크와 일렉기타가 합쳐진 물체">
+        <h3>Alchemy Kung-Fu Generation</h3>
+        <p class="stop__from">from ALCHEMY</p>
+        <p class="stop__desc">ASIAN KUNG-FU GENERATION 4곡. 연금술사가 연금술사의 노래를 부릅니다.</p>
+        <a href="#set-akg">SETLIST →</a>
+      </article>
+      <article class="stop">
+        <span class="stop__num">02</span>
+        <img src="img/emblem-ameu.jpg" alt="심벌즈로 된 우산, 거꾸로 올라가는 비">
+        <h3>Ameu</h3>
+        <p class="stop__from">AMEU</p>
+        <p class="stop__desc">King Gnu 7곡. 白日에서 飛行艇까지, 비가 위로 올라가는 무대.</p>
+        <a href="#set-ameu">SETLIST →</a>
+      </article>
+      <article class="stop">
+        <span class="stop__num">03</span>
+        <img src="img/emblem-kansoku.jpg" alt="렌즈 대신 등롱이 달린 망원경">
+        <h3>관측불가</h3>
+        <p class="stop__from">from ALCHEMY</p>
+        <p class="stop__desc">RADWIMPS · BUMP OF CHICKEN · THE ORAL CIGARETTES · 米津玄師 4곡. 관측 불가라면서 天体観測을 합니다.</p>
+        <a href="#set-kansoku">SETLIST →</a>
+      </article>
+      <article class="stop">
+        <span class="stop__num">04</span>
+        <img src="img/emblem-kawarimono.jpg" alt="비처럼 녹아 흐르는 LP">
+        <h3>Kawarimono</h3>
+        <p class="stop__from">KAWARIMONO</p>
+        <p class="stop__desc">King Gnu 7곡. 一途로 열고 雨燦々로 밤을 닫습니다.</p>
+        <a href="#set-kawarimono">SETLIST →</a>
+      </article>
+      <article class="stop stop--end">밤의 끝은<br>여기서 정해지지 않습니다.</article>
+    </div>
+    <img class="walker" id="walker" src="img/walk-gnu.jpg" alt="">
+    <div class="order__floor"></div>
+  </div>
+</section>
+
+<!-- 03 SETLIST : 팀별 턴테이블 4대 (js/main.js 의 SETS 데이터로 생성) -->
+<div class="divider" id="sets">
+  <p class="divider__k">SETLIST</p>
+  <h2 class="divider__t">4 TURNTABLES<br><span>22 TRACKS</span></h2>
+  <p class="divider__d">스크롤하면 판이 돌아가고, 바늘 아래 놓인 곡이 설명됩니다.<br>턴테이블은 팀 성격대로 조금씩 고장 나 있습니다.</p>
+</div>
+<div id="setsHost"></div>
+
+<!-- 04 TICKET : 스크롤하면 표가 찢어집니다 -->
+<section class="ticket" id="ticket">
+  <div class="ticket__sticky">
+    <h2 class="sec-title" data-crown-target="ticket" data-crown-pos="left">TICKET</h2>
+    <div class="stub" id="stub">
+      <div class="stub__half stub__half--l">
+        <span class="stub__k">ONLINE · 온라인 예매</span>
+        <b class="stub__price">5,000<small>원</small></b>
+        <a class="btn" href="#" data-placeholder>예매하기 →</a>
+        <span class="stub__admit">ADMIT ONE · GNU NIGHT · 2026.10.31</span>
+      </div>
+      <div class="stub__perf" aria-hidden="true"></div>
+      <div class="stub__half stub__half--r">
+        <span class="stub__k">DOOR · 현장 구매</span>
+        <b class="stub__price">7,000<small>원</small></b>
+        <p class="stub__note">*현장구매는 계좌이체만 가능합니다.<br>현금·카드 결제는 불가.</p>
+      </div>
+    </div>
+    <p class="ticket__hint">스크롤하면 표가 찢어집니다. 진짜 표는 입구에서 찢습니다.</p>
+  </div>
+</section>
+
+<!-- 05 VENUE : 주소가 거꾸로 적혀 있다가 제자리로 돌아옵니다 -->
+<section class="venue" id="venue">
+  <h2 class="sec-title" data-crown-target="venue" data-crown-pos="left">VENUE</h2>
+  <div class="venue__grid">
+    <div>
+      <div class="venue__name">하멜아트홀<span>HAMEL ART HALL · GWANGJU</span></div>
+      <p class="addr" data-text="광주광역시 남구 봉선1로 70" aria-label="광주광역시 남구 봉선1로 70"></p>
+      <p class="venue__note">주소가 뒤집혀 보이면 잠시만. 곧 제자리로 돌아옵니다.</p>
+      <div class="venue__links">
+        <a href="https://map.kakao.com/link/search/하멜아트홀" target="_blank" rel="noopener">카카오맵 →</a>
+        <a href="https://map.naver.com/p/search/하멜아트홀" target="_blank" rel="noopener">네이버지도 →</a>
+      </div>
+    </div>
+    <dl class="venue__dl">
+      <div><dt>SHOW</dt><dd>PM 06:00</dd></div>
+      <div><dt>DOOR</dt><dd data-placeholder>입장 시간 (교체)</dd></div>
+      <div><dt>TICKET</dt><dd>온라인 5,000원 / 현장 7,000원 (계좌이체만)</dd></div>
+      <div><dt>LINEUP</dt><dd>Kawarimono · Ameu · Alchemy</dd></div>
+    </dl>
+  </div>
+</section>
+
+<!-- 06 BANDS -->
+<section class="bands" id="bands">
+  <h2 class="sec-title" data-crown-target="bands" data-crown-pos="left">3 BANDS <span>1 NIGHT</span></h2>
+  <div class="bands__row">
+    <article class="band reveal">
+      <h3>Kawarimono</h3>
+      <p data-placeholder>[한 줄 소개 교체] King Gnu 커버 7곡으로 밤을 닫는 팀.</p>
+      <a href="#" data-placeholder>Instagram →</a>
+    </article>
+    <article class="band reveal">
+      <h3>Ameu</h3>
+      <p data-placeholder>[한 줄 소개 교체] King Gnu 커버 7곡, 두 번째 무대.</p>
+      <a href="#" data-placeholder>Instagram →</a>
+    </article>
+    <article class="band band--alchemy reveal">
+      <h3>Alchemy</h3>
+      <p>전남대학교 유일 J-POP 밴드 동아리. 출전 팀: <b>Alchemy Kung-Fu Generation</b> · <b>관측불가</b>.</p>
+      <a href="#" data-placeholder>Alchemy 홈페이지 →</a>
+      <a href="#" data-placeholder>Instagram →</a>
+    </article>
+  </div>
+</section>
+
+<!-- 07 POSTER : img/poster.jpg 를 넣으면 나타납니다 (없으면 자동 숨김) -->
+<section class="poster" id="poster">
+  <img src="img/poster.jpg" alt="GNU NIGHT in Gwangju 포스터" onerror="this.closest('section').hidden=true">
+</section>
+
+<footer class="foot">
+  <div class="marquee" data-text="GNU NIGHT IN GWANGJU | 2026.10.31 SAT PM 06:00 | 하멜아트홀 | J-POP BAND COVER LIVE" data-speed="80"></div>
+  <div class="marquee marquee--rev" data-text="Kawarimono | Ameu | Alchemy | ASIAN KUNG-FU GENERATION | King Gnu | RADWIMPS | BUMP OF CHICKEN | THE ORAL CIGARETTES | 米津玄師" data-speed="55"></div>
+  <div class="foot__row">
+    <span>© 2026 GNU NIGHT · Kawarimono × Ameu × Alchemy</span>
+    <span>온라인예매 5,000원 · 현장구매 7,000원 (계좌이체만)</span>
+    <a href="#top">TOP ↑</a>
+  </div>
+</footer>
+
+</main>
+<script src="js/main.js"></script>
+</body>
+</html>
